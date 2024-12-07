@@ -1,0 +1,12 @@
+.footer {
+    font-family: 'Cabinet Grotesk Regular', 'Times New Roman', Times;
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    margin: 171px auto 0;
+    height: fit-content;
+}
+
+/* .footer__item {
+
+} */

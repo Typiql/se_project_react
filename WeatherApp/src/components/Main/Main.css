@@ -1,0 +1,23 @@
+.main {
+  font-family: "Cabinet Grotesk Regular", "Times New Roman", Times;
+  margin: 40px auto 0;
+  height: 387px;
+  width: 1360px;
+  max-width: 1360px;
+  min-height: fit-content;
+}
+
+.main__title {
+  margin: 0 0 34px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.itemCard-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 325px);
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+}
