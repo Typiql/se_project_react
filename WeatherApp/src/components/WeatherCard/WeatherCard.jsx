@@ -1,10 +1,10 @@
 import React from "react";
 import "./WeatherCard.css";
 
-function WeatherCard({ temperature }) {
+function WeatherCard({ weatherData }) {
   return (
     <div className="weatherCard">
-      <p className="weatherCard__temp">{temperature ? `${temperature}°F` : "Loading..."}</p>
+      <p className="weatherCard__temp">{Math.round(weatherData.temp)}°F</p>
     </div>
   );
 }
