@@ -1,0 +1,18 @@
+.weatherCard {
+    font-family: 'Cabinet Grotesk Regular', 'Times New Roman', Times;
+    display: flex;
+    background-image: url('../../assets/Cloudy.svg');
+    width: 1360px;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.weatherCard__temp {
+    padding-left: 16px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #FFFFFF;
+}
