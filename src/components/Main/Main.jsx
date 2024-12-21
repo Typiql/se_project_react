@@ -8,7 +8,7 @@ function Main({ weatherData, handleCardClick }) {
   );
 
   return (
-    <div className="main">
+    <main className="main">
       <h2 className="main__title">
         Today is {Math.round(weatherData.temp)}°F / You
         may want to wear:
@@ -18,7 +18,7 @@ function Main({ weatherData, handleCardClick }) {
           <ItemCard key={item._id} item={item} onCardClick={handleCardClick} />
         ))}
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-.modal__close-btn {
+.modal__close-btn_image {
   top: 20px;
   right: 20px;
 }
@@ -23,7 +23,7 @@
   height: 100%;
 }
 
-.modal__title {
+.modal__title_image {
   position: absolute;
   background-color: white;
   top: 17px;
@@ -35,7 +35,7 @@
 }
 
 .modal__weather {
-    font-weight: 700;
-    font-size: 20px;
-    margin: 33px 0 0;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 33px 0 0;
 }

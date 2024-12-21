@@ -46,7 +46,6 @@ function App() {
   }, []);
 
   return (
-    <>
       <div className="page">
         <div className="page__content">
           <Header weatherData={weatherData} handleAddClick={handleAddClick} />
@@ -55,7 +54,7 @@ function App() {
           <ModalWithForm
             titleText="New garment"
             buttonText="Add garment"
-            activeModal={activeModal}
+            isOpen={activeModal === "add-garment"}
             closeActiveModal={closeActiveModal}
           >
             <label className="modal__label">
@@ -117,14 +116,13 @@ function App() {
             </fieldset>
           </ModalWithForm>
           <ItemModal
-            activeModal={activeModal}
+            isOpen={activeModal === "preview"}
             card={selectedCard}
             closeActiveModal={closeActiveModal}
           />
           <Footer />
         </div>
       </div>
-    </>
   );
 }
 
